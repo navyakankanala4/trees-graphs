@@ -1,6 +1,0 @@
-In this folder logic is implemented for graphs based on adjacency list.
-the functions which are implemented in main are create_node,add_edge,print_graph,create_graph
-->here a graph is created based on the number of vertices.
-->to add an edge a new node is created and the edge is added to adjacency list.
-->In print graph the nodes and edges in the graph are displayed in adjacency list.
-
