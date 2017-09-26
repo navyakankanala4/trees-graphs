@@ -1,0 +1,11 @@
+in this folder logic is implemented to construct a graph based on adjacency matrix.
+here the operations performed are create a graph,insert an edge and delete an edge and display
+creation_of_graph:graph is created based on the number of vertices and maximum number of vertices
+->maximum no of vertices that a tree can have are n*(n-1)
+here source and destination nodes should be in the range 0 to n
+if negative values are given then it will come out of loop.
+same conditions are checked for add edge and delete edge
+->execution steps
+gcc -o func func.c main.c
+./func
+
