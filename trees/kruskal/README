@@ -1,0 +1,10 @@
+In this folder a logic is implemented for minimum spanning tree based on kruskals algorithm.
+The functions written are Make_a_graph,create_tree,traverse and insert into queue.
+->make_a_graph:a graph is created normally by giving an input.Here the count of edges should be less than the number of edges.
+maximum no of edges:(n*(n-1))
+the values of source and destination should  be in the range of 0 to n
+In main function the information of  node,vertex and weights are displayed.
+->if the graph is not empty and not greater than no of vertices.then traverse to the next node to find the minimum weight of the edge and store
+the node edge and weight.
+if the weight in this is less than the previous weight then we store this weight in the list and if it is not less then traverse to the next element
+fiinally the edges with minimum weights are stored in the list and are displayed .

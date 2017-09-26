@@ -1,0 +1,23 @@
+in this folder logic is implemented for red_black tree.
+the basic operation performed here is insert and display
+the basic properties are:
+->root should be black
+->leaf node should be black
+->child of red node will be black
+Insertion:
+-->Here we insert the node normally as in BST and mark the colour of newly inserted node as red 
+if the inserted node is root then change the colour of x as black.
+if the color of x's parent is not black or x is not root
+a)if x's uncle is red
+->change the color of parent and uncle as black
+->color of grandparent as red
+->change x=x's grandparent,repeat it for new x
+B)if x's uncle is black then there are four cases:
+->left-left rotation
+->right-right rotation
+->right-left rotation
+->left-right rotation
+case 1)if the nodes are in the trianglar form then rotate parent of x.
+case 2)if the nodes are in the line then rotate x's grandparent and recolor.
+display:
+displaying the data of nodes.

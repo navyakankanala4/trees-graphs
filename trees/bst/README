@@ -1,0 +1,30 @@
+In this folder source code is written for Binary Search Tree.The one main property of BST is node's left child must have a value less than it's 
+parent value and node's right child must have a value greater than the value of it's parent
+Basic operations performed in this are:insert,search,inorder,preorder,post order,maximum,minimum and delete.
+Insert operation:if the root is null,then create a root node.if root exists then compare the data with the node data .if the data is greater than
+the root node go to right subtree else go to left subtree.
+Search:Whenever the elemene to be inserted,start searching from the root node,if data is less than the key value ,search for the element in the left
+subtree otherwise,search for the element in the right subtree.
+Inorder:transeversal should be in this order left->root->right.
+Untill all nodes are traversed-
+step 1:Recursively traverse left subtree
+step 2:visit root node
+step 3:recursively traverse right subtree
+Preorder:traversal should be in the order root->left->right.
+Untill all nodes are traversed-
+step 1:Visit root node
+step 2:Recursively traverse left subtree
+Step 3:Recursively traverse right subtree
+Postorder:traversal should be in the order left->right->root
+Untill all nodes are traversed
+Step 1:Recursively traverse left subtree
+Step 2:Recursively traverse right subtree
+Step 3:visit root node
+Deletion in BST:there are three cases for deletion in BST
+case 1:No child
+If it is the only node then free that node and make it as NULL
+case 2:one child
+if it is having one child then delete the node and point the child to the above node 
+case 3:two child  
+find minimum in right subtree and copy that element in targetted node
+find maximum in left subtree and copy that element in targetted node
